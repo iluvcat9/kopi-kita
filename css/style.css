@@ -190,6 +190,7 @@ body {
 .shopping-cart h4 {
   font-size: 1.6rem;
   margin-top: -1rem;
+  text-align: center;
 }
 
 /* Chekout Form */
@@ -238,6 +239,11 @@ body {
   border-radius: 20px;
   margin: 1rem auto;
   cursor: pointer;
+}
+
+.form-container .checkout-button.disabled {
+  background-color: #999;
+  cursor: not-allowed;
 }
 
 /* Hero Section */
@@ -289,17 +295,6 @@ body {
   font-weight: 100;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   mix-blend-mode: difference;
-}
-
-.hero .content .cta {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.4rem;
-  color: #fff;
-  background-color: var(--primary);
-  border-radius: 0.5rem;
-  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 /* About Section */
